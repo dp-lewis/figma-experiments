@@ -1,0 +1,20 @@
+/* Design Tokens */
+:root {
+  /* Font Sizes */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-md: 1.5rem;     /* 24px */
+  --font-size-lg: 2rem;       /* 32px */
+
+  /* Font Styles */
+  --font-family-display: Roboto, Helvetica, Arial, sans-serif;
+  --font-family-text: 'Source Serif Pro', Georgia, serif;
+  
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Colors */
+  --color-primary: #3b82f6;
+  --color-text: #1e1e1e;
+}
