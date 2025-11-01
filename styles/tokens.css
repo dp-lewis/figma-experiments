@@ -15,6 +15,8 @@
   --font-weight-bold: 700;
 
   /* Colors */
-  --color-primary: #3b82f6;
+  --color-primary: #5E79C4;
+  --color-primary-dark: #1d3063;
   --color-text: #1e1e1e;
+  --color-text-inverse: #ffffff;
 }

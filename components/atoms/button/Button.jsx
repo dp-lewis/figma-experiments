@@ -12,7 +12,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className='storybook-button'
+      className='button-primary'
       {...props}
     >
       {label}

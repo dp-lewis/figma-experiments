@@ -1,13 +1,18 @@
-.storybook-button {
+.button-primary {
   display: inline-block;
   cursor: pointer;
   border: 0;
-  border-radius: 3em;
-  font-weight: 700;
+  border-radius: 1em;
+  font-weight: var(--font-weight-medium);
   line-height: 1;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-display);
   padding: 12px 24px; 
-  background-color: blue;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
   font-size: var(--font-size-base);
+  transition: background-color 0.3s ease;
 }
+
+.button-primary:hover {
+  background-color: var(--color-primary-dark);
+} 
