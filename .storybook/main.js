@@ -5,7 +5,9 @@ const config = {
   "stories": [
     "../components/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
-  "addons": [],
+  "addons": [
+    "@storybook/addon-designs",
+  ],
   "framework": {
     "name": "@storybook/react-vite",
     "options": {}

@@ -5,6 +5,10 @@ export default {
   component: MyPage,
   parameters: {
     layout: 'fullscreen',
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/IQTJ58xGbMYkRwRpnZe5wj/Using-the-Design-System?node-id=1-2&m=dev',
+    },
   },
 };
 
