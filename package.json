@@ -1,0 +1,27 @@
+{
+  "name": "figma-experiments",
+  "version": "1.0.0",
+  "description": "",
+
+  "homepage": "https://github.com/dp-lewis/figma-experiments#readme",
+  "bugs": {
+    "url": "https://github.com/dp-lewis/figma-experiments/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dp-lewis/figma-experiments.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/react-vite": "^10.0.2",
+    "prop-types": "^15.8.1",
+    "storybook": "^10.0.2"
+  }
+}
