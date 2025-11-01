@@ -1,0 +1,31 @@
+.mypage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-base);
+  padding: var(--spacing-base);
+  background-color: white;
+  max-width: 443px; /* 443px to match Figma design */
+  box-sizing: border-box;
+
+}
+
+.mypage-title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1;
+}
+
+.mypage-body {
+  width: 100%;
+}
+
+.mypage-body p {
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-base);
+  line-height: var(--text-line-height-base);
+  color: var(--color-text);
+  margin: 0;
+}
