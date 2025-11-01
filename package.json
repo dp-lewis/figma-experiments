@@ -2,7 +2,6 @@
   "name": "figma-experiments",
   "version": "1.0.0",
   "description": "",
-
   "homepage": "https://github.com/dp-lewis/figma-experiments#readme",
   "bugs": {
     "url": "https://github.com/dp-lewis/figma-experiments/issues"
@@ -23,5 +22,8 @@
     "@storybook/react-vite": "^10.0.2",
     "prop-types": "^15.8.1",
     "storybook": "^10.0.2"
+  },
+  "dependencies": {
+    "react": "^19.2.0"
   }
 }
