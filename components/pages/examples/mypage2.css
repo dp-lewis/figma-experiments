@@ -1,0 +1,40 @@
+.mypage2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-base);
+  padding: var(--spacing-base);
+  background-color: white;
+  max-width: 443px;
+  box-sizing: border-box;
+}
+
+.mypage2-title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1;
+}
+
+.mypage2-buttons {
+  display: flex;
+  gap: var(--spacing-base);
+  align-items: center;
+}
+
+.mypage2-body {
+  width: 100%;
+}
+
+.mypage2-body p {
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-base);
+  line-height: var(--text-line-height-base);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-base) 0;
+}
+
+.mypage2-body p:last-child {
+  margin-bottom: 0;
+}
