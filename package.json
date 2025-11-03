@@ -16,13 +16,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "tokens:build": "style-dictionary build -c style-dictionary-config.json",
+    "tokens:add-units": "node add-units.js",
+    "tokens:build-with-units": "npm run tokens:build && npm run tokens:add-units"
   },
   "devDependencies": {
     "@storybook/addon-designs": "^11.0.1",
     "@storybook/react-vite": "^10.0.2",
     "prop-types": "^15.8.1",
-    "storybook": "^10.0.2"
+    "storybook": "^10.0.2",
+    "style-dictionary": "^5.1.1"
   },
   "dependencies": {
     "react": "^19.2.0"
