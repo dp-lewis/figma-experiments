@@ -1,0 +1,12 @@
+.article-text {
+  font-family: var(--font-text);
+  font-size: var(--text-size-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--text-lineheight-default);
+  color: var(--colour-text-default);
+  margin: 0 0 var(--spacing-default) 0;
+}
+
+.article-text:last-child {
+  margin-bottom: 0;
+}

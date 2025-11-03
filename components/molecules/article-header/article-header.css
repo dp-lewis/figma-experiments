@@ -1,0 +1,5 @@
+.article-header {
+  border-bottom: 1px solid rgba(57, 57, 57, 0.2);
+  padding-bottom: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+}

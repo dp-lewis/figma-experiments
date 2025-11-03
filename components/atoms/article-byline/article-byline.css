@@ -1,0 +1,7 @@
+.article-byline {
+  font-family: var(--font-display);
+  font-size: var(--text-size-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--colour-text-default);
+  margin: 0 0 var(--spacing-small) 0;
+}

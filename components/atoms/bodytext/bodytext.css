@@ -1,0 +1,29 @@
+/* BodyText Component Styles */
+
+.bodytext {
+  /* Use design tokens for typography */
+  font-family: var(--font-text); /* Source Serif 4 */
+  font-weight: var(--font-weight-normal);
+  line-height: var(--text-lineheight-default);
+  color: var(--colour-text-default);
+  
+  /* Reset default margins */
+  margin: 0;
+}
+
+/* Size variants using design tokens */
+.bodytext--small {
+  font-size: var(--text-size-small);
+}
+
+.bodytext--base {
+  font-size: var(--text-size-base); /* 16px - matches Figma body text */
+}
+
+.bodytext--medium {
+  font-size: var(--text-size-medium);
+}
+
+.bodytext--large {
+  font-size: var(--text-size-large);
+}

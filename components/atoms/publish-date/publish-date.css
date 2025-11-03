@@ -1,0 +1,8 @@
+.publish-date {
+  font-family: var(--font-display);
+  font-size: var(--text-size-small);
+  font-weight: var(--font-weight-normal);
+  color: var(--colour-text-default);
+  opacity: 0.7;
+  margin: 0 0 var(--spacing-large) 0;
+}

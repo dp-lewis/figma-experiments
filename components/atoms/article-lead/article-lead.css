@@ -1,0 +1,8 @@
+.article-lead {
+  font-family: var(--font-text);
+  font-size: var(--text-size-medium);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--text-lineheight-default);
+  color: var(--colour-text-default);
+  margin: 0 0 var(--spacing-large) 0;
+}

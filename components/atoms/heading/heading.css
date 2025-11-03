@@ -1,0 +1,29 @@
+/* Heading Component Styles */
+
+.heading {
+  /* Use design tokens for typography */
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--text-lineheight-tight);
+  color: var(--colour-text-default);
+  
+  /* Reset default margins */
+  margin: 0;
+}
+
+/* Size variants using design tokens */
+.heading--small {
+  font-size: var(--text-size-small);
+}
+
+.heading--medium {
+  font-size: var(--text-size-medium);
+}
+
+.heading--large {
+  font-size: var(--text-size-large);
+}
+
+.heading--xlarge {
+  font-size: var(--text-size-xlarge); /* 48px - matches Figma title */
+}

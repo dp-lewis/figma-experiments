@@ -1,0 +1,74 @@
+/* MyPage2 Component Styles */
+
+.mypage2 {
+  /* Use design tokens for consistent styling */
+  background-color: white;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.mypage2__content {
+  /* Layout using design tokens */
+  padding: var(--spacing-default);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-default);
+  align-items: flex-start;
+  max-width: 800px; /* Reasonable max width for readability */
+  margin: 0 auto;
+}
+
+/* Title spacing */
+.mypage2__title {
+  align-self: flex-start;
+}
+
+/* Button Group Layout */
+.mypage2__button-group {
+  display: flex;
+  gap: var(--spacing-default);
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Body Content Styling */
+.mypage2__body {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-default);
+}
+
+.mypage2__paragraph {
+  /* Additional spacing if needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mypage2__content {
+    padding: var(--spacing-small);
+    gap: var(--spacing-small);
+  }
+  
+  .mypage2__button-group {
+    gap: var(--spacing-small);
+    width: 100%;
+  }
+  
+  .mypage2__button-group button {
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mypage2__button-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .mypage2__button-group button {
+    width: 100%;
+  }
+}
