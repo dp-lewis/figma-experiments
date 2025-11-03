@@ -1,6 +1,5 @@
 import '../styles/fonts.css';
 import '../styles/tokens/tokens-with-units.css';
-import '../styles/typography.css';
 
 /** @type { import('@storybook/react-vite').Preview } */
 const preview = {
